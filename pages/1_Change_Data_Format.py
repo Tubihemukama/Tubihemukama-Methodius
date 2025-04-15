@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Streamlit app title
-st.title("📊 Wide to Long Data Reshaper for Currency Rates")
+st.title("Wide to Long Data Reshaper for Currency Rates")
 
 # File uploader
 uploaded_file = st.file_uploader("📥 Upload a CSV or Excel file", type=['csv', 'xlsx'])
